@@ -22,9 +22,3 @@ operacion2 = Operaciones(lista)
 print("Por Campeonato")
 print(operacion2.ordenar2())
 
-
-f= MiArchivoEscribir()
-
-for g in lista:
-    f.agregar_informacion(g)
-    print(g)
